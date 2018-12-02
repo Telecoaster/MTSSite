@@ -10,6 +10,12 @@ h1{
     font-weight:bold; 
 }
 
+h2{
+
+    font-size: 30px; 
+    font-weight:bold; 
+}
+
 button {
     border: 4px solid lightblue;
     background-color: inherit;
@@ -18,3 +24,60 @@ button {
     cursor: pointer;
     display: inline-block;
 }
+
+
+.tableRow{
+    display: table-row; 
+   
+    
+}
+.tableHeader{
+    font-size: 30px; 
+    font-weight:bold; 
+    width: 300px;
+    display: table-cell;
+    vertical-align: top;
+}
+.tableContent{
+    display: table-cell;
+    vertical-align: top;
+    padding-bottom: 30px;
+}  
+
+.inlineList{
+width: 400px;
+position: relative;
+padding-left: 600px; 
+padding-right: 200px; 
+padding-top:60px; 
+padding-bottom:60px;
+}
+.inlineHeader{
+    font-size: 30px; 
+    font-weight:bold; 
+    vertical-align: top;
+}
+.inlineContent{
+    vertical-align: top;
+    padding-bottom: 30px;
+}
+
+.projectRow{
+    display: table-row; 
+   
+    
+}
+.projectHeader{
+    font-size: 30px; 
+    font-weight:bold; 
+    width: 100px;
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 60px;
+    padding-bottom: 60px;
+}
+.projectImage{
+width: 400px;
+height: 250px;
+border: 0px solid black;
+}  
